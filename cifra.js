@@ -1,4 +1,5 @@
-const mensagemSecreta = "minhamensagemsecreta";
+const mensagemSecreta = "alura";
+const quantidadeDeMovimentos = 4;
 
 console.log(mensagemSecreta);
 
@@ -11,7 +12,7 @@ function cifraMensagem(mensagem, movimentos) {
   return mensagemCifrada.join("");
 }
 
-const mensagemCifrada = cifraMensagem(mensagemSecreta, 3);
+const mensagemCifrada = cifraMensagem(mensagemSecreta, quantidadeDeMovimentos);
 
 console.log(mensagemCifrada);
 
@@ -24,6 +25,6 @@ function decifraMensagem(mensagem, movimentos) {
   return mensagemDecifrada.join("");
 }
 
-const mensagemDecifrada = decifraMensagem(mensagemCifrada, 3);
+const mensagemDecifrada = decifraMensagem(mensagemCifrada, quantidadeDeMovimentos);
 
 console.log(mensagemDecifrada);
