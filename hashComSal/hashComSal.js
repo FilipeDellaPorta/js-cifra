@@ -39,3 +39,4 @@ console.log(jm);
 jm.autentica("Joao Manoel", "senhaSecreta");
 //teste com falha
 jm.autentica("Joao Manoel", "senhaErrada");
+jm.autentica("Joao", "senhaErrada");
